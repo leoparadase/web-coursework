@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnMinus100"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="- 100"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="+ 1"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="- 1"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <Button
+        android:id="@+id/btnPlus10"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="+ 10"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <Button
+        android:id="@+id/btnMinus10"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="- 10"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <Button
+        android:id="@+id/btnPlus100"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="+ 100"
+        android:textColor="#263238"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#E74C3C"
+        android:text="RESET"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlus"
+        app:layout_constraintVertical_bias="0.714"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-200dp"
+        android:text="0"
+        android:textColor="#263238"
+        android:textSize="128sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+</androidx.constraintlayout.widget.ConstraintLayout>
